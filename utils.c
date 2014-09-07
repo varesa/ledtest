@@ -2,6 +2,8 @@
 
 #include "utils.h"
 
+extern uint32_t DMABuffer[];
+
 int32_t constrain(int32_t min, int32_t value, int32_t max) {
 	if(value < min)
 		return min;
